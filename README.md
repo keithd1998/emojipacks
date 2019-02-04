@@ -1,7 +1,7 @@
 # emojipacks
 [![Build Status](https://travis-ci.org/lambtron/emojipacks.svg?branch=master)](https://travis-ci.org/lambtron/emojipacks)
 
-> CLI to bulk upload emojis to your Slack!
+> CLI to bulk upload emojis to Slack and Mattermost!
 
 ## Install
 
