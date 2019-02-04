@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 var program = require('commander');
 var Prompt = require('../lib/prompt');
 var Slack = require('../lib/slack');
@@ -11,8 +12,9 @@ var co = require('co');
  */
 
 program
-  .version(require('../package').version)
+  .version(require('../package').version) 
   .option('-d, --debug', 'Run in debug mode')
+  .option('-c, --chat', 'Chat system, Slack or Mattermost')
   .option('-s, --subdomain [value]', 'Your Slack subdomain')
   .option('-e, --email [value]', 'Admin email address')
   .option('-p, --password [value]', 'Password for admin email')
